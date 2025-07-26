@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "JMdzlPqCtrhHCz9nNUu6BjWdurcUR56qtHB/1NBmba4=",
+  "Source": "SeizureTrackerAPI",
+  "BasePath": "_content/SeizureTrackerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

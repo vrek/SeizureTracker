@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9dad3m2G0rs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\SeizureTrackerAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raymond\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0-rc.2.24474.3\\microsoft.aspnetcore.openapi.9.0.0-rc.2.24474.3.nupkg.sha512",
+    "C:\\Users\\Raymond\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\Raymond\\.nuget\\packages\\scalar.aspnetcore\\2.1.1\\scalar.aspnetcore.2.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

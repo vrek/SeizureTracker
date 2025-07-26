@@ -1,0 +1,6 @@
+@SeizureTrackerAPI_HostAddress = http://localhost:5266
+
+POST {{SeizureTrackerAPI_HostAddress}}/caregiver/create
+Accept: application/json
+
+###
