@@ -35,6 +35,33 @@
   },
   {
     "ContainingType": "SeizureTrackerAPI.Endpoints.CareGiverEndpoints",
+    "Method": "LoadCareGiverByName",
+    "RelativePath": "caregivers/{firstname}/{lastname}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstname",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "lastname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SeizureTrackerAPI.Endpoints.CareGiverEndpoints",
     "Method": "LoadCareGiverById",
     "RelativePath": "caregivers/{id}",
     "HttpMethod": "GET",

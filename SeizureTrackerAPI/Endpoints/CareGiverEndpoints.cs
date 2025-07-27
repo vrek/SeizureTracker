@@ -8,6 +8,7 @@ public static class CareGiverEndpoints
     {
         _ = app.MapGet("/caregivers", LoadAllCareGivers);
         _ = app.MapGet("/caregivers/{id}", LoadCareGiverById);
+        _ = app.MapGet("/caregivers/{firstname}/{lastname}", LoadCareGiverByName);
     }
 
 
@@ -20,6 +21,18 @@ public static class CareGiverEndpoints
     private static IResult LoadCareGiverById(CareGiverData data, Guid id)
     {
         Models.CareGiver? output = data.CareGivers.FirstOrDefault(c => c.CareGiverID == id);
+
+        if (output is null)
+        {
+            return Results.NotFound();
+        }
+
+        return Results.Ok(output);
+    }
+
+    private static IResult LoadCareGiverByName(CareGiverData data, string firstname, string lastname)
+    {
+        Models.CareGiver? output = data.CareGivers.FirstOrDefault(c => c.FirstName == firstname && c.LastName == lastname);
 
         if (output is null)
         {
