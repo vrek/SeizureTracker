@@ -9,9 +9,9 @@ locally is to maintain your control of your own data. The creator of this proogr
 
 ## Future Features
 This app is still heavy in development and lacks many features, in order of priority.
-1. The ability to actually record seizures, currently can only read and create caregivers and patients.
-2. The ability to see patient data from the caregivers menu.
-3. The ability to export the JSON data into other file formats for example csv or xlsx.
-4. THe ability to store data in a SQLite database rather instead of just JSON.
-5. The ability to generate a formatted report likely in a PDF format.
+- [ ] The ability to actually record seizures, currently can only read and create caregivers and patients.
+- [ ] The ability to see patient data from the caregivers menu.
+- [ ] The ability to export the JSON data into other file formats for example csv or xlsx.
+- [ ] THe ability to store data in a SQLite database rather instead of just JSON.
+- [ ] The ability to generate a formatted report likely in a PDF format.
 
