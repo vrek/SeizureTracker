@@ -15,7 +15,6 @@ public class CareGiver
     [MaxLength(100)]
     public required string Email { get; set; }
 
-
-    public List<Patient>? Patients { get; set; }
+    public List<Guid>? Patients { get; set; }
 
 }

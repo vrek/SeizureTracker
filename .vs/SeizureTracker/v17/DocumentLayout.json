@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7696F30-876E-4B20-9A02-17459266A863}|SeizureTrackerUI\\SeizureTrackerUI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B7696F30-876E-4B20-9A02-17459266A863}|SeizureTrackerUI\\SeizureTrackerUI.csproj|solutionrelative:seizuretrackerui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\data\\patientdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\data\\patientdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\data\\caregiverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\data\\caregiverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\endpoints\\caregiverendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\endpoints\\caregiverendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\bin\\Debug\\net9.0\\Data\\CareGiverData.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SeizureTrackerAPI\\bin\\Debug\\net9.0\\Data\\CareGiverData.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\data\\caregiverdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\data\\caregiverdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\startup\\dependenciesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\startup\\dependenciesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\endpoints\\patientendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\endpoints\\patientendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\models\\caregiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\models\\caregiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7696F30-876E-4B20-9A02-17459266A863}|SeizureTrackerUI\\SeizureTrackerUI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7696F30-876E-4B20-9A02-17459266A863}|SeizureTrackerUI\\SeizureTrackerUI.csproj|solutionrelative:seizuretrackerui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7696F30-876E-4B20-9A02-17459266A863}|SeizureTrackerUI\\SeizureTrackerUI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7696F30-876E-4B20-9A02-17459266A863}|SeizureTrackerUI\\SeizureTrackerUI.csproj|solutionrelative:seizuretrackerui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\data\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\data\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\startup\\corsconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\startup\\openapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\startup\\openapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7696F30-876E-4B20-9A02-17459266A863}|SeizureTrackerUI\\SeizureTrackerUI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B7696F30-876E-4B20-9A02-17459266A863}|SeizureTrackerUI\\SeizureTrackerUI.csproj|solutionrelative:seizuretrackerui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -39,26 +83,6 @@
       "RelativeMoniker": "D:0:0:{B7696F30-876E-4B20-9A02-17459266A863}|SeizureTrackerUI\\SeizureTrackerUI.csproj|solutionrelative:seizuretrackerui\\models\\caregivermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\models\\caregiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\models\\caregiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\endpoints\\caregiverendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\endpoints\\caregiverendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\data\\caregiverdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\data\\caregiverdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\data\\caregiverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\data\\caregiverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|c:\\users\\raymond\\source\\repos\\seizuretracker\\seizuretrackerapi\\endpoints\\rootendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D15116E8-26F9-4E07-B8F4-626102652F49}|SeizureTrackerAPI\\SeizureTrackerAPI.csproj|solutionrelative:seizuretrackerapi\\endpoints\\rootendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +118,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerUI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SeizureTrackerUI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerUI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SeizureTrackerUI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T19:40:24.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CareGiverData.json",
+              "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\bin\\Debug\\net9.0\\Data\\CareGiverData.json",
+              "RelativeDocumentMoniker": "SeizureTrackerAPI\\bin\\Debug\\net9.0\\Data\\CareGiverData.json",
+              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\bin\\Debug\\net9.0\\Data\\CareGiverData.json",
+              "RelativeToolTip": "SeizureTrackerAPI\\bin\\Debug\\net9.0\\Data\\CareGiverData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABcAgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T19:15:30.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CareGiverData.json",
+              "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Data\\CareGiverData.json",
+              "RelativeDocumentMoniker": "SeizureTrackerAPI\\Data\\CareGiverData.json",
+              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Data\\CareGiverData.json",
+              "RelativeToolTip": "SeizureTrackerAPI\\Data\\CareGiverData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T19:01:35.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerUI\\Program.cs",
+              "RelativeDocumentMoniker": "SeizureTrackerUI\\Program.cs",
+              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerUI\\Program.cs",
+              "RelativeToolTip": "SeizureTrackerUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T18:14:23.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientData.cs",
+              "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Data\\PatientData.cs",
+              "RelativeDocumentMoniker": "SeizureTrackerAPI\\Data\\PatientData.cs",
+              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Data\\PatientData.cs",
+              "RelativeToolTip": "SeizureTrackerAPI\\Data\\PatientData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T18:02:18.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientData.json",
+              "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Data\\PatientData.json",
+              "RelativeDocumentMoniker": "SeizureTrackerAPI\\Data\\PatientData.json",
+              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Data\\PatientData.json",
+              "RelativeToolTip": "SeizureTrackerAPI\\Data\\PatientData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T17:56:07.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Endpoints\\PatientEndpoints.cs",
+              "RelativeDocumentMoniker": "SeizureTrackerAPI\\Endpoints\\PatientEndpoints.cs",
+              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Endpoints\\PatientEndpoints.cs",
+              "RelativeToolTip": "SeizureTrackerAPI\\Endpoints\\PatientEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T17:44:27.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CorsConfig.cs",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Startup\\CorsConfig.cs",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\Startup\\CorsConfig.cs",
@@ -102,24 +214,22 @@
               "RelativeToolTip": "SeizureTrackerAPI\\Startup\\CorsConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T03:23:30.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T03:23:30.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "SeizureTrackerAPI",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\SeizureTrackerAPI.csproj",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\SeizureTrackerAPI.csproj",
               "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\SeizureTrackerAPI.csproj",
               "RelativeToolTip": "SeizureTrackerAPI\\SeizureTrackerAPI.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-27T02:59:38.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T02:59:38.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\appsettings.json",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\appsettings.json",
@@ -127,12 +237,11 @@
               "RelativeToolTip": "SeizureTrackerAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-27T02:59:32.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T02:59:32.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "CareGiverModel.cs",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerUI\\Models\\CareGiverModel.cs",
               "RelativeDocumentMoniker": "SeizureTrackerUI\\Models\\CareGiverModel.cs",
@@ -140,64 +249,48 @@
               "RelativeToolTip": "SeizureTrackerUI\\Models\\CareGiverModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T02:41:05.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T02:41:05.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerUI\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "SeizureTrackerUI\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerUI\\Pages\\Home.razor",
               "RelativeToolTip": "SeizureTrackerUI\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-27T02:38:17.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T02:38:17.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CareGiverData.json",
-              "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Data\\CareGiverData.json",
-              "RelativeDocumentMoniker": "SeizureTrackerAPI\\Data\\CareGiverData.json",
-              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Data\\CareGiverData.json",
-              "RelativeToolTip": "SeizureTrackerAPI\\Data\\CareGiverData.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-26T22:59:01.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "CareGiverData.cs",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Data\\CareGiverData.cs",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\Data\\CareGiverData.cs",
               "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Data\\CareGiverData.cs",
               "RelativeToolTip": "SeizureTrackerAPI\\Data\\CareGiverData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T22:38:29.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Program.cs",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Program.cs*",
-              "RelativeToolTip": "SeizureTrackerAPI\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Program.cs",
+              "RelativeToolTip": "SeizureTrackerAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T21:50:12.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T21:50:12.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\Properties\\launchSettings.json",
@@ -205,12 +298,11 @@
               "RelativeToolTip": "SeizureTrackerAPI\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-26T21:49:05.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T21:49:05.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "OpenAPIConfig.cs",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Startup\\OpenAPIConfig.cs",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\Startup\\OpenAPIConfig.cs",
@@ -218,25 +310,23 @@
               "RelativeToolTip": "SeizureTrackerAPI\\Startup\\OpenAPIConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T21:48:30.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T21:48:30.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DependenciesConfig.cs",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Startup\\DependenciesConfig.cs",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\Startup\\DependenciesConfig.cs",
-              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Startup\\DependenciesConfig.cs*",
-              "RelativeToolTip": "SeizureTrackerAPI\\Startup\\DependenciesConfig.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Startup\\DependenciesConfig.cs",
+              "RelativeToolTip": "SeizureTrackerAPI\\Startup\\DependenciesConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T21:48:27.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T21:48:27.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "SeizureTrackerAPI.http",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\SeizureTrackerAPI.http",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\SeizureTrackerAPI.http",
@@ -248,13 +338,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "CareGiverEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Endpoints\\CareGiverEndpoints.cs",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\Endpoints\\CareGiverEndpoints.cs",
               "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Endpoints\\CareGiverEndpoints.cs",
               "RelativeToolTip": "SeizureTrackerAPI\\Endpoints\\CareGiverEndpoints.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T21:21:17.351Z",
               "EditorCaption": ""
@@ -267,26 +357,25 @@
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\Models\\Patient.cs",
               "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Models\\Patient.cs",
               "RelativeToolTip": "SeizureTrackerAPI\\Models\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T01:19:30.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "CareGiver.cs",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Models\\CareGiver.cs",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\Models\\CareGiver.cs",
               "ToolTip": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Models\\CareGiver.cs",
               "RelativeToolTip": "SeizureTrackerAPI\\Models\\CareGiver.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T01:18:37.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T01:18:37.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "RootEndpoints.cs",
               "DocumentMoniker": "C:\\Users\\Raymond\\source\\repos\\SeizureTracker\\SeizureTrackerAPI\\Endpoints\\RootEndpoints.cs",
               "RelativeDocumentMoniker": "SeizureTrackerAPI\\Endpoints\\RootEndpoints.cs",

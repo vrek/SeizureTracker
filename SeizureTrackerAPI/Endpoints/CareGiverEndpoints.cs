@@ -58,6 +58,7 @@ public static class CareGiverEndpoints
         }
         careGiver.CareGiverID = Guid.NewGuid();
         data.CareGivers.Add(careGiver);
+        data.WriteCareGiverData();
         return Results.Created($"/caregivers/{careGiver.CareGiverID}", careGiver);
     }
 }

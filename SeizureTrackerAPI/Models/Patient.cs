@@ -5,7 +5,7 @@ namespace SeizureTrackerAPI.Models;
 public class Patient
 {
     [Key]
-    public Guid PatientId { get; set; }
+    public Guid PatientID { get; set; }
     [MaxLength(50)]
     public required string FirstName { get; set; }
     [MaxLength(50)]
