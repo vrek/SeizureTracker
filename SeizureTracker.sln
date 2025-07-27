@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeizureTrackerAPI", "SeizureTrackerAPI\SeizureTrackerAPI.csproj", "{D15116E8-26F9-4E07-B8F4-626102652F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeizureTrackerUI", "SeizureTrackerUI\SeizureTrackerUI.csproj", "{B7696F30-876E-4B20-9A02-17459266A863}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,15 @@ Global
 		{D15116E8-26F9-4E07-B8F4-626102652F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D15116E8-26F9-4E07-B8F4-626102652F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D15116E8-26F9-4E07-B8F4-626102652F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7696F30-876E-4B20-9A02-17459266A863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7696F30-876E-4B20-9A02-17459266A863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7696F30-876E-4B20-9A02-17459266A863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7696F30-876E-4B20-9A02-17459266A863}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE55ED06-DA4D-4B5B-803F-B5AAD5F792B0}
 	EndGlobalSection
 EndGlobal

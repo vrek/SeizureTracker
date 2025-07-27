@@ -9,6 +9,7 @@ public static class CareGiverEndpoints
         _ = app.MapGet("/caregivers", LoadAllCareGivers);
         _ = app.MapGet("/caregivers/{id}", LoadCareGiverById);
         _ = app.MapGet("/caregivers/{firstname}/{lastname}", LoadCareGiverByName);
+        _ = app.MapPost("/caregivers/create", CreateCareGiver);
     }
 
 
@@ -18,7 +19,9 @@ public static class CareGiverEndpoints
         return Results.Ok(data.CareGivers);
     }
 
-    private static IResult LoadCareGiverById(CareGiverData data, Guid id)
+    private static IResult LoadCareGiverById(
+        CareGiverData data,
+        Guid id)
     {
         Models.CareGiver? output = data.CareGivers.FirstOrDefault(c => c.CareGiverID == id);
 
@@ -30,7 +33,10 @@ public static class CareGiverEndpoints
         return Results.Ok(output);
     }
 
-    private static IResult LoadCareGiverByName(CareGiverData data, string firstname, string lastname)
+    private static IResult LoadCareGiverByName(
+        CareGiverData data,
+        string? firstname,
+        string? lastname)
     {
         Models.CareGiver? output = data.CareGivers.FirstOrDefault(c => c.FirstName == firstname && c.LastName == lastname);
 
@@ -40,5 +46,18 @@ public static class CareGiverEndpoints
         }
 
         return Results.Ok(output);
+    }
+
+    private static IResult CreateCareGiver(
+        CareGiverData data,
+        Models.CareGiver careGiver)
+    {
+        if (careGiver is null)
+        {
+            return Results.BadRequest("Caregiver data is required.");
+        }
+        careGiver.CareGiverID = Guid.NewGuid();
+        data.CareGivers.Add(careGiver);
+        return Results.Created($"/caregivers/{careGiver.CareGiverID}", careGiver);
     }
 }

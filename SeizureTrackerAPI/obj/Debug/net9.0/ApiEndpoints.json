@@ -44,12 +44,12 @@
       {
         "Name": "firstname",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
       },
       {
         "Name": "lastname",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -71,6 +71,28 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SeizureTrackerAPI.Endpoints.CareGiverEndpoints",
+    "Method": "CreateCareGiver",
+    "RelativePath": "caregivers/create",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "careGiver",
+        "Type": "SeizureTrackerAPI.Models.CareGiver",
         "IsRequired": true
       }
     ],
