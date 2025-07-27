@@ -8,5 +8,6 @@ public static class DependenciesConfig
     {
         builder.Services.AddOpenApiServices();
         _ = builder.Services.AddTransient<CareGiverData>();
+        builder.Services.AddCorsServices();
     }
 }

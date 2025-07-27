@@ -1,12 +1,34 @@
 ﻿@page "/"
+@using SeizureTrackerUI.Models
+@inject HttpClient Http
 
 <PageTitle>Seizure Tracker</PageTitle>
 
-<h1>Welcome to Seizure Tracker</h1>
+<h1>CareGivers</h1>
+
+@if (caregivers is not null)
+{
+    @foreach(var caregiver in caregivers)
+    {
+        <a href="@caregiver">
+            <div class="caregiver-card">
+                <h2>@caregiver.FirstName @caregiver.LastName</h2>
+                <p>Email: @caregiver.Email</p>
+            </div>
+        </a>
+        
+        @* <div class="caregiver-card">
+            <h2>@caregiver.FirstName</h2>
+            <h2>@caregiver.LastName</h2>
+            <p>Email: @caregiver.Email</p>
+        </div> *@
+    }
+}
 
 @code {
-    protected override Task OnInitializedAsync()
+    private List<CareGiverModel>? caregivers;
+    protected override async Task OnInitializedAsync()
     {
-        return base.OnInitializedAsync();
+        caregivers = await Http.GetFromJsonAsync<List<CareGiverModel>>("https://localhost:7079/caregivers");
     }
 }

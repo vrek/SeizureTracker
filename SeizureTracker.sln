@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeizureTrackerAPI", "SeizureTrackerAPI\SeizureTrackerAPI.csproj", "{D15116E8-26F9-4E07-B8F4-626102652F49}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeizureTrackerUI", "SeizureTrackerUI\SeizureTrackerUI.csproj", "{B7696F30-876E-4B20-9A02-17459266A863}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D15116E8-26F9-4E07-B8F4-626102652F49} = {D15116E8-26F9-4E07-B8F4-626102652F49}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

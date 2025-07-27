@@ -10,6 +10,8 @@ WebApplication app = builder.Build();
 app.UseOpenApi();
 
 app.UseHttpsRedirection();
+app.ApplyCorsConfig();
+
 
 app.AddRootEndpoints();
 app.AddCareGiverEndpoints();
