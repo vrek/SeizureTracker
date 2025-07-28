@@ -40,6 +40,7 @@ public static class SeizureEndpoints
         }
         Seizure.SeizureEventId = Guid.NewGuid();
         data.seizures.Add(Seizure);
+        data.WriteSeizureData();
         return Results.Created($"/Seizures/{Seizure.SeizureEventId}", Seizure);
     }
 }

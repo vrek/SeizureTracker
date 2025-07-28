@@ -56,6 +56,7 @@ public static class PatientEndpoints
         }
         patient.PatientID = Guid.NewGuid();
         data.Patients.Add(patient);
+        data.WritePatientData();
         return Results.Created($"/patients/{patient.PatientID}", patient);
     }
 }

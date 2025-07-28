@@ -19,4 +19,38 @@ public class SeizureData
 
         seizures = JsonSerializer.Deserialize<List<Seizures>>(json, _options) ?? [];
     }
+    public void WriteSeizureData()
+    {
+        try
+        {
+            string filePath = Path.Combine(AppContext.BaseDirectory, "Data", "PatientData.json");
+            string json = JsonSerializer.Serialize(seizures, _options);
+            File.WriteAllText(filePath, json);
+            ReloadSeizureData();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error writing SeizureData.json: {ex.Message}");
+            Console.WriteLine(ex.StackTrace);
+        }
+    }
+    public void ReloadSeizureData()
+    {
+        try
+        {
+            string filePath = Path.Combine(AppContext.BaseDirectory, "Data", "PatientData.json");
+            string json = File.ReadAllText(filePath);
+            List<Seizures>? loaded = JsonSerializer.Deserialize<List<Seizures>>(json, _options);
+            if (loaded is not null)
+            {
+                seizures.Clear();
+                seizures.AddRange(loaded);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reloading SeizureData.json: {ex.Message}");
+            Console.WriteLine(ex.StackTrace);
+        }
+    }
 }
