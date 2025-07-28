@@ -12,8 +12,6 @@ public static class PatientEndpoints
         _ = app.MapPost("/patients/create", Createpatient);
     }
 
-
-
     private static IResult LoadAllPatients(PatientData data)
     {
         return Results.Ok(data.Patients);

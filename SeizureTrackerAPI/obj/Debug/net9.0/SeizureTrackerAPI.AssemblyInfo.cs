@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeizureTrackerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+430625a3536f2312dbe47601cda227492878f4c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d89306e3df26d05a0ffd6c49d2426fa24d890112")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeizureTrackerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeizureTrackerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

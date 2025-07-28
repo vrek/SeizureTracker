@@ -1,0 +1,35 @@
+[
+  {
+    "SeizureEventId": "eaaa899b-669a-491c-bed9-a45ae3f03e25",
+    "SeizureDateTime": "2025-07-27T20:26:34",
+    "SeizureSeverity": 3,
+    "SeizureDurationMinutes": 5.0,
+    "SeizureComments": "While eating",
+    "patient": "d445b2fa-8981-49ef-8061-16da1a2ccf1b"
+  },
+  {
+    "SeizureEventId": "4110a29f-c67d-417e-b001-3986045de2fe",
+    "SeizureDateTime": "2025-07-27T18:26:34",
+    "SeizureSeverity": 2,
+    "SeizureDurationMinutes": 2.0,
+    "SeizureComments": "",
+    "patient": "d445b2fa-8981-49ef-8061-16da1a2ccf1b"
+  },
+  {
+    "SeizureEventId": "d930b259-a146-4ab4-89c8-48749a77d5cc",
+    "SeizureDateTime": "2025-07-27T22:28:34",
+    "SeizureSeverity": 7,
+    "SeizureDurationMinutes": 1.0,
+    "SeizureComments": "While bathing",
+    "patient": "d445b2fa-8981-49ef-8061-16da1a2ccf1b"
+  },
+  {
+    "SeizureEventId": "a5e20eb4-1645-4775-87ed-bff199ed4b2a",
+    "SeizureDateTime": "2025-07-27T23:35:34",
+    "SeizureSeverity": 4,
+    "SeizureDurationMinutes": 2.0,
+    "SeizureComments": "While asleep",
+    "patient": "d445b2fa-8981-49ef-8061-16da1a2ccf1b"
+  }
+]
+

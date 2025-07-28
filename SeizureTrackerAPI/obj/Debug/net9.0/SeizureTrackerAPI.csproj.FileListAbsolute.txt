@@ -35,3 +35,4 @@ C:\Users\Raymond\source\repos\SeizureTracker\SeizureTrackerAPI\obj\Debug\net9.0\
 C:\Users\Raymond\source\repos\SeizureTracker\SeizureTrackerAPI\bin\Debug\net9.0\Data\CareGiverData.json
 C:\Users\Raymond\source\repos\SeizureTracker\SeizureTrackerAPI\obj\Debug\net9.0\SeizureTrackerAPI.sourcelink.json
 C:\Users\Raymond\source\repos\SeizureTracker\SeizureTrackerAPI\bin\Debug\net9.0\Data\PatientData.json
+C:\Users\Raymond\source\repos\SeizureTracker\SeizureTrackerAPI\bin\Debug\net9.0\Data\SeizureData.json

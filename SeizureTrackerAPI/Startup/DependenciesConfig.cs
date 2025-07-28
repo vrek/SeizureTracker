@@ -9,6 +9,7 @@ public static class DependenciesConfig
         builder.Services.AddOpenApiServices();
         _ = builder.Services.AddSingleton<CareGiverData>();
         _ = builder.Services.AddSingleton<PatientData>();
+        _ = builder.Services.AddSingleton<SeizureData>();
         builder.Services.AddCorsServices();
     }
 }

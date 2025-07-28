@@ -7,6 +7,6 @@ public class CareGiverModel
     public required string LastName { get; set; } = string.Empty;
     public DateOnly DateOfBirth { get; set; }
     public required string Email { get; set; }
-    //public List<Patient>? Patients { get; set; }
+    public List<Guid>? Patients { get; set; }
 
 }

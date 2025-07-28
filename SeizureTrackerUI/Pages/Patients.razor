@@ -1,0 +1,28 @@
+﻿@page "/patients"
+@using SeizureTrackerUI.Models
+@inject HttpClient Http
+
+<PageTitle>Seizure Tracker</PageTitle>
+
+<h1>Patients</h1>
+
+@if (patients is not null)
+{
+    @foreach(var patient in patients)
+    {
+        <a href="@patient">
+            <div class="patient-card">
+                <h2>@patient.FirstName @patient.LastName</h2>
+                
+            </div>
+        </a>
+    }
+}
+
+@code {
+    private List<PatientModel>? patients;
+    protected override async Task OnInitializedAsync()
+    {
+        patients = await Http.GetFromJsonAsync<List<PatientModel>>("https://localhost:7079/patients");
+    }
+}
