@@ -10,14 +10,14 @@ public class SeizureData
         PropertyNameCaseInsensitive = true,
     };
 
-    public List<Seizures> seizures { get; private set; } = [];
+    public List<Seizure> seizures { get; private set; } = [];
     public SeizureData()
     {
         string filePath = Path.Combine(AppContext.BaseDirectory, "Data", "SeizureData.json");
 
         string json = File.ReadAllText(filePath);
 
-        seizures = JsonSerializer.Deserialize<List<Seizures>>(json, _options) ?? [];
+        seizures = JsonSerializer.Deserialize<List<Seizure>>(json, _options) ?? [];
     }
     public void WriteSeizureData()
     {
@@ -40,7 +40,7 @@ public class SeizureData
         {
             string filePath = Path.Combine(AppContext.BaseDirectory, "Data", "PatientData.json");
             string json = File.ReadAllText(filePath);
-            List<Seizures>? loaded = JsonSerializer.Deserialize<List<Seizures>>(json, _options);
+            List<Seizure>? loaded = JsonSerializer.Deserialize<List<Seizure>>(json, _options);
             if (loaded is not null)
             {
                 seizures.Clear();

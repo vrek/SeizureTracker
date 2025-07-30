@@ -2,19 +2,24 @@
 
 namespace SeizureTrackerAPI.Models;
 
-public class CareGiver
+public class Caregiver
 {
     [Key]
-    public Guid CareGiverID { get; set; }
-    [MaxLength(50)]
-    public required string FirstName { get; set; } = string.Empty;
-    [MaxLength(50)]
-    public required string LastName { get; set; } = string.Empty;
-    public DateOnly DateOfBirth { get; set; }
+    public Guid CaregiverID { get; set; }
+
     [Required]
-    [MaxLength(100)]
-    public required string Email { get; set; }
+    public string FirstName { get; set; } = string.Empty;
 
-    public List<Guid>? Patients { get; set; }
+    [Required]
+    public string LastName { get; set; } = string.Empty;
 
+    [Required]
+    public DateTime DateOfBirth { get; set; }
+
+    // Nullable foreign key pointing to a Patient (optional association)
+    public Guid? PatientID { get; set; }
+
+    public Patient? Patient { get; set; }
+
+    public ICollection<CaregiverPatientLink>? CaregiverLinks { get; set; }
 }

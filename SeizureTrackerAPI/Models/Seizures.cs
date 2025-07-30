@@ -2,18 +2,22 @@
 
 namespace SeizureTrackerAPI.Models;
 
-public class Seizures
+public class Seizure
 {
     [Key]
-    public Guid SeizureEventId { get; set; }
+    public Guid SeizureID { get; set; }
 
-    public required DateTime SeizureDateTime { get; set; }
-    public required int SeizureSeverity { get; set; }
-    public required float SeizureDurationMinutes { get; set; }
+    public DateTime SeizureDateTime { get; set; }
+
+    public int SeizureSeverity { get; set; }
+
+    public int SeizureDurationMinutes { get; set; }
+
     [MaxLength(5000)]
-    public string? SeizureComments { get; set; }
+    public string SeizureComments { get; set; }
 
-    //Navigations Properties
-    public required Guid Patient { get; set; }
+    // Foreign key to Patient
+    public Guid PatientID { get; set; }
 
+    public Patient Patient { get; set; }
 }

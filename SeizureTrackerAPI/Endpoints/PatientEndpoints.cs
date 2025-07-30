@@ -12,51 +12,30 @@ public static class PatientEndpoints
         _ = app.MapPost("/patients/create", Createpatient);
     }
 
-    private static IResult LoadAllPatients(PatientData data)
+    private static IResult LoadAllPatients(PatientDataAccess data)
     {
-        return Results.Ok(data.Patients);
+        return data.LoadAllPatients();
     }
 
     private static IResult LoadPatientById(
-        PatientData data,
+        PatientDataAccess data,
         Guid id)
     {
-        Models.Patient? output = data.Patients.FirstOrDefault(c => c.PatientID == id);
-
-        if (output is null)
-        {
-            return Results.NotFound();
-        }
-
-        return Results.Ok(output);
+        return data.LoadPatientById(id);
     }
 
     private static IResult LoadPatientByName(
-        PatientData data,
+        PatientDataAccess data,
         string? firstname,
         string? lastname)
     {
-        Models.Patient? output = data.Patients.FirstOrDefault(c => c.FirstName == firstname && c.LastName == lastname);
-
-        if (output is null)
-        {
-            return Results.NotFound();
-        }
-
-        return Results.Ok(output);
+        return data.LoadPatientByName(firstname, lastname);
     }
 
     private static IResult Createpatient(
-        PatientData data,
+        PatientDataAccess data,
         Models.Patient patient)
     {
-        if (patient is null)
-        {
-            return Results.BadRequest("patient data is required.");
-        }
-        patient.PatientID = Guid.NewGuid();
-        data.Patients.Add(patient);
-        data.WritePatientData();
-        return Results.Created($"/patients/{patient.PatientID}", patient);
+        return data.CreatePatient(patient);
     }
 }

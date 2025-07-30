@@ -13,6 +13,8 @@ app.UseHttpsRedirection();
 app.ApplyCorsConfig();
 
 
+
+
 app.AddRootEndpoints();
 app.AddCareGiverEndpoints();
 app.AddPatientEndpoints();

@@ -92,7 +92,7 @@
     "Parameters": [
       {
         "Name": "careGiver",
-        "Type": "SeizureTrackerAPI.Models.CareGiver",
+        "Type": "SeizureTrackerAPI.Models.Caregiver",
         "IsRequired": true
       }
     ],
@@ -239,7 +239,7 @@
     "Parameters": [
       {
         "Name": "Seizure",
-        "Type": "SeizureTrackerAPI.Models.Seizures",
+        "Type": "SeizureTrackerAPI.Models.Seizure",
         "IsRequired": true
       }
     ],

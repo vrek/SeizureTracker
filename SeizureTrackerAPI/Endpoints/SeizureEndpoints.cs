@@ -20,7 +20,7 @@ public static class SeizureEndpoints
         SeizureData data,
         Guid id)
     {
-        Models.Seizures? output = data.seizures.FirstOrDefault(c => c.SeizureEventId == id);
+        Models.Seizure? output = data.seizures.FirstOrDefault(c => c.SeizureID == id);
 
         if (output is null)
         {
@@ -32,15 +32,15 @@ public static class SeizureEndpoints
 
     private static IResult CreateSeizure(
         SeizureData data,
-        Models.Seizures Seizure)
+        Models.Seizure Seizure)
     {
         if (Seizure is null)
         {
             return Results.BadRequest("Seizure data is required.");
         }
-        Seizure.SeizureEventId = Guid.NewGuid();
+        Seizure.SeizureID = Guid.NewGuid();
         data.seizures.Add(Seizure);
         data.WriteSeizureData();
-        return Results.Created($"/Seizures/{Seizure.SeizureEventId}", Seizure);
+        return Results.Created($"/Seizures/{Seizure.SeizureID}", Seizure);
     }
 }

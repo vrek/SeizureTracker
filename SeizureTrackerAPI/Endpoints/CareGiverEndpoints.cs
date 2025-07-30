@@ -12,53 +12,24 @@ public static class CareGiverEndpoints
         _ = app.MapPost("/caregivers/create", CreateCareGiver);
     }
 
-
-
-    private static IResult LoadAllCareGivers(CareGiverData data)
+    private static async Task<IResult> LoadAllCareGivers(CareGiverAccess data)
     {
-        return Results.Ok(data.CareGivers);
+        return await data.LoadAllCareGivers();
     }
 
-    private static IResult LoadCareGiverById(
-        CareGiverData data,
-        Guid id)
+
+    private static IResult LoadCareGiverById(CareGiverAccess data, Guid id)
     {
-        Models.CareGiver? output = data.CareGivers.FirstOrDefault(c => c.CareGiverID == id);
-
-        if (output is null)
-        {
-            return Results.NotFound();
-        }
-
-        return Results.Ok(output);
+        return data.LoadCareGiverById(id);
     }
 
-    private static IResult LoadCareGiverByName(
-        CareGiverData data,
-        string? firstname,
-        string? lastname)
+    private static IResult LoadCareGiverByName(CareGiverAccess data, string? firstname, string? lastname)
     {
-        Models.CareGiver? output = data.CareGivers.FirstOrDefault(c => c.FirstName == firstname && c.LastName == lastname);
-
-        if (output is null)
-        {
-            return Results.NotFound();
-        }
-
-        return Results.Ok(output);
+        return data.LoadCareGiverByName(firstname, lastname);
     }
 
-    private static IResult CreateCareGiver(
-        CareGiverData data,
-        Models.CareGiver careGiver)
+    private static IResult CreateCareGiver(CareGiverAccess data, Models.Caregiver careGiver)
     {
-        if (careGiver is null)
-        {
-            return Results.BadRequest("Caregiver data is required.");
-        }
-        careGiver.CareGiverID = Guid.NewGuid();
-        data.CareGivers.Add(careGiver);
-        data.WriteCareGiverData();
-        return Results.Created($"/caregivers/{careGiver.CareGiverID}", careGiver);
+        return data.CreateCareGiver(careGiver);
     }
 }
