@@ -8,7 +8,6 @@ public static class CareGiverEndpoints
     {
         _ = app.MapGet("/caregivers", LoadAllCareGivers);
         _ = app.MapGet("/caregivers/{id}", LoadCareGiverById);
-        _ = app.MapGet("/caregivers/{firstname}/{lastname}", LoadCareGiverByName);
         _ = app.MapPost("/caregivers/create", CreateCareGiver);
     }
 
@@ -18,18 +17,18 @@ public static class CareGiverEndpoints
     }
 
 
-    private static IResult LoadCareGiverById(CareGiverAccess data, Guid id)
+    private static async Task<IResult> LoadCareGiverById(CareGiverAccess data, Guid id)
     {
-        return data.LoadCareGiverById(id);
+        return await data.LoadCareGiverById(id);
     }
 
-    private static IResult LoadCareGiverByName(CareGiverAccess data, string? firstname, string? lastname)
-    {
-        return data.LoadCareGiverByName(firstname, lastname);
-    }
+    //private static IResult LoadCareGiverByName(CareGiverAccess data, string? firstname, string? lastname)
+    //{
+    //    return data.LoadCareGiverByName(firstname, lastname);
+    //}
 
-    private static IResult CreateCareGiver(CareGiverAccess data, Models.Caregiver careGiver)
+    private static async Task<IResult> CreateCareGiver(CareGiverAccess data, Models.Caregiver careGiver)
     {
-        return data.CreateCareGiver(careGiver);
+        return await data.CreateCareGiver(careGiver);
     }
 }

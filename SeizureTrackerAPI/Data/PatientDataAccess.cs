@@ -8,6 +8,8 @@ public class PatientDataAccess(DBContext context)
 {
     private readonly DBContext _context = context;
 
+
+
     public IResult LoadAllPatients()
     {
 
